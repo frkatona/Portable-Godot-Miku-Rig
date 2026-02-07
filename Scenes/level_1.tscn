@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://cqrx354qeuvxm"]
+
+[ext_resource type="Script" uid="uid://bj4p772njen0p" path="res://Scenes/testbench.gd" id="1_8ffim"]
+[ext_resource type="PackedScene" uid="uid://b2bry160viyku" path="res://Scenes/Miku_Yellow.tscn" id="2_8ffim"]
+
+[sub_resource type="Sky" id="Sky_ilcil"]
+
+[sub_resource type="Environment" id="Environment_3hls8"]
+background_color = Color(0.38148212, 0.42532864, 0.73733354, 1)
+sky = SubResource("Sky_ilcil")
+ambient_light_source = 3
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_hbghi"]
+
+[sub_resource type="Compositor" id="Compositor_hn12h"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ilcil"]
+
+[node name="Level1" type="Node3D" unique_id=1699653938]
+script = ExtResource("1_8ffim")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=727117477]
+environment = SubResource("Environment_3hls8")
+camera_attributes = SubResource("CameraAttributesPractical_hbghi")
+compositor = SubResource("Compositor_hn12h")
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="." unique_id=1118972734]
+transform = Transform3D(5.069299, 0, 0, 0, 0.17526078, 0, 0, 0, 5.069299, 0, -0.17538485, 0)
+mesh = SubResource("CylinderMesh_ilcil")
+
+[node name="Miku_yellow" parent="." unique_id=1616399533 instance=ExtResource("2_8ffim")]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1214282355]
