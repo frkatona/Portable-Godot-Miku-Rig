@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://co75vvmjp1aef"
-path.s3tc="res://.godot/imported/blue_defonly_oh_yellow_miku-palette-1.png-1c7ddfb21168a1f5a65cced5091f7f8c.s3tc.ctex"
+uid="uid://bq78kuep2agw6"
+path.s3tc="res://.godot/imported/pink_lib_oh_yellow_miku-palette-1.png-5d2801dbc5a5d516a371a397f76486f8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/blue_defonly_oh_yellow_miku-palette-1.png"
-dest_files=["res://.godot/imported/blue_defonly_oh_yellow_miku-palette-1.png-1c7ddfb21168a1f5a65cced5091f7f8c.s3tc.ctex"]
+source_file="res://Assets/Models/pink_lib_oh_yellow_miku-palette-1.png"
+dest_files=["res://.godot/imported/pink_lib_oh_yellow_miku-palette-1.png-5d2801dbc5a5d516a371a397f76486f8.s3tc.ctex"]
 
 [params]
 

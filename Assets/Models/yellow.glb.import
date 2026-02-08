@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://2l6qtmtdhk01"
-path="res://.godot/imported/pink_defonly.glb-d2bd21ab8d36d3345e2af1ce5dea099f.scn"
+uid="uid://b6kv1h1gukyal"
+path="res://.godot/imported/yellow.glb-bd7b507291e85fdab6fdb5b0692ffaa7.scn"
 
 [deps]
 
-source_file="res://Assets/pink_defonly.glb"
-dest_files=["res://.godot/imported/pink_defonly.glb-d2bd21ab8d36d3345e2af1ce5dea099f.scn"]
+source_file="res://Assets/Models/yellow.glb"
+dest_files=["res://.godot/imported/yellow.glb-bd7b507291e85fdab6fdb5b0692ffaa7.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bvjtx5qjjlik3"
-path="res://.godot/imported/blue_defonly.glb-b292b86ef80b8cf3f1add42c6dafd89e.scn"
+path="res://.godot/imported/blue_defonly.glb-4d87b1f69816f8fac5e97c890e1126a8.scn"
 
 [deps]
 
-source_file="res://Assets/blue_defonly.glb"
-dest_files=["res://.godot/imported/blue_defonly.glb-b292b86ef80b8cf3f1add42c6dafd89e.scn"]
+source_file="res://Assets/Models/blue_defonly.glb"
+dest_files=["res://.godot/imported/blue_defonly.glb-4d87b1f69816f8fac5e97c890e1126a8.scn"]
 
 [params]
 

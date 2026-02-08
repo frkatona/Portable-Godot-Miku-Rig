@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://c23ogaig237if"]
+
+[ext_resource type="PackedScene" uid="uid://pkmt6mi8hi7p" path="res://Assets/Models/yellow_defonly.glb" id="1_ce4pc"]
+
+[node name="Node3D" type="Node3D" unique_id=1909879788]
+
+[node name="yellow_defonly" parent="." unique_id=1667368514 instance=ExtResource("1_ce4pc")]

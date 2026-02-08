@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://f7jbod7263my"]
 
-[ext_resource type="PackedScene" uid="uid://bvjtx5qjjlik3" path="res://Assets/blue_defonly.glb" id="1_4nxkr"]
+[ext_resource type="PackedScene" uid="uid://bvjtx5qjjlik3" path="res://Assets/Models/blue_defonly.glb" id="1_4nxkr"]
 [ext_resource type="Script" uid="uid://ldv1ft5ywoaa" path="res://Scenes/miku_blue.gd" id="1_ehy5p"]
 
 [node name="Node3D" type="Node3D" unique_id=252143364]
