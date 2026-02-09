@@ -28,7 +28,8 @@
 6. delete the existing 'animation player' (requires both 'editable children' and 'make local')
 7. add a new animation player to the same spot (direct child of the base glb (not the Node3d))
 8. with that animation player, select the animation button (within the animation window from the animation tab at the bottom of the editor) and click 'manage animations'
-9. select the .glb file that was converted to an animation library in step #4 (check animations are working)
+9. click "load library" and select the .glb file that was converted to an animation library in step #4 (check animations are working)
 10. add a SpringBoneSimulator3D node to the scene (direct child of the Skeleton3D)
 11. selected the hair start and stop bones unique to that model (bones in the universal rig named with the related model's hair color)
+
 ![godot node structure](Exports/godot_node-structure.png)
