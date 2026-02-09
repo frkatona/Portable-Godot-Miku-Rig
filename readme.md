@@ -38,4 +38,16 @@
 Currently only includes the static A-posed 'basis' animation and a 'run' animation
 
 I also played around with alternative strategies of extracting animations from the animated model imports and re-targetting, but this seems maybe sliiiightly more reliable
- - still keep getting an error like this one sometimes: "AnimationMixer (at: Miku_Yellow_AnimationLibrary.tscn): 'miku_animations/run_003', couldn't resolve track:  'rig_003/Skeleton3D:DEF-f_pinky.01.R'."
+ - still keep getting a warning like this one sometimes: "AnimationMixer (at: Miku_Yellow_AnimationLibrary.tscn): 'miku_animations/run_003', couldn't resolve track:  'rig_003/Skeleton3D:DEF-f_pinky.01.R'."
+- even when an animation library is working correctly, it seems to return the warning:
+    - `AnimationMixer (at: Miku_Yellow_AnimationLibrary.tscn): 'miku_animations/run_003', couldn't resolve track:  'Skeleton3D:DEF-f_pinky.01.R'. This warning can be disabled in Project Settings.`
+    - are they all about the left pinky phalanges or is that just the message header?
+    - it's the header — there are like 14k warnings messages
+- other than the warnings, there are 25 identical error messages:
+    - `ERROR: scene/animation/animation_mixer.cpp:286 - Condition "p_animation_library.is_null()" is true. Returning: StringName()`
+
+bug fixing to-do
+- [x]  "import as skeleton"
+- [ ] making skeleton names identical in Blender (can I even do this?  I guess I could rename the original and just swap that name around...and I would only need to do it once each time I export a new mesh)
+- [ ] how can I check the animations are imported correctly separate from their model?  the armature doesn't seem to move in the import settings
+
