@@ -33,3 +33,7 @@
 11. selected the hair start and stop bones unique to that model (bones in the universal rig named with the related model's hair color)
 
 ![godot node structure](Exports/godot_node-structure.png)
+
+Currently only includes the static A-posed 'basis' animation and a 'run' animation
+
+I also played around with alternative strategies of extracting animations from the animated model imports and re-targetting, but this seems maybe least buggy.
