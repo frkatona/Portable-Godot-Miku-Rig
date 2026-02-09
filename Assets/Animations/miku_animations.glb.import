@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="animation_library"
 importer_version=1
-type="PackedScene"
+type="AnimationLibrary"
 uid="uid://dqo8s1b3wf66"
-path="res://.godot/imported/pink_lib.glb-49654a01abc1fcb7af70b10379f665ff.scn"
+path="res://.godot/imported/miku_animations.glb-7f8384ca036152b671d8f831b8db256e.res"
 
 [deps]
 
-source_file="res://Assets/Models/pink_lib.glb"
-dest_files=["res://.godot/imported/pink_lib.glb-49654a01abc1fcb7af70b10379f665ff.scn"]
+source_file="res://Assets/Animations/miku_animations.glb"
+dest_files=["res://.godot/imported/miku_animations.glb-7f8384ca036152b671d8f831b8db256e.res"]
 
 [params]
 

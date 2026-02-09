@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cb1bfi8chb73b"]
 
-[ext_resource type="Script" uid="uid://qqbdi1pcq14f" path="res://Scenes/miku_pink.gd" id="1_8mpb8"]
+[ext_resource type="Script" uid="uid://qqbdi1pcq14f" path="res://Scripts/miku_pink.gd" id="1_8mpb8"]
 [ext_resource type="PackedScene" uid="uid://2l6qtmtdhk01" path="res://Assets/Models/pink_defonly.glb" id="1_8thkc"]
 
 [node name="Node3D" type="Node3D" unique_id=650470126]
