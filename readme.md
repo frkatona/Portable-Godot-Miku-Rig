@@ -19,7 +19,8 @@
 
 ## Process
 
-1. export glb of animated model with the universal rig
+1. export glb of animated model with the universal rig (using 'deform bones only' lately)
+![blender export settings](Exports/blender_export-settings.png)
 2. import into godot
 3. duplicate it
 4. change one's 'import' tab settings (after importing, next to the 'scene' tab) for the glb from 'scene' to 'animation library'
@@ -30,3 +31,4 @@
 9. select the .glb file that was converted to an animation library in step #4 (check animations are working)
 10. add a SpringBoneSimulator3D node to the scene (direct child of the Skeleton3D)
 11. selected the hair start and stop bones unique to that model (bones in the universal rig named with the related model's hair color)
+![godot node structure](Exports/godot_node-structure.png)
