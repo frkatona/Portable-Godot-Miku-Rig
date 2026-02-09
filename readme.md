@@ -31,9 +31,11 @@
 9. click "load library" and select the .glb file that was converted to an animation library in step #4 (check animations are working)
 10. add a SpringBoneSimulator3D node to the scene (direct child of the Skeleton3D)
 11. selected the hair start and stop bones unique to that model (bones in the universal rig named with the related model's hair color)
+12. further imported rigged models can continue to use the existing animation player (THOUGH I'm currently figuring out if the name of the rig or something is preventing the model from recognizing the animations)
 
 ![godot node structure](Exports/godot_node-structure.png)
 
 Currently only includes the static A-posed 'basis' animation and a 'run' animation
 
-I also played around with alternative strategies of extracting animations from the animated model imports and re-targetting, but this seems maybe least buggy.
+I also played around with alternative strategies of extracting animations from the animated model imports and re-targetting, but this seems maybe sliiiightly more reliable
+ - still keep getting an error like this one sometimes: "AnimationMixer (at: Miku_Yellow_AnimationLibrary.tscn): 'miku_animations/run_003', couldn't resolve track:  'rig_003/Skeleton3D:DEF-f_pinky.01.R'."
