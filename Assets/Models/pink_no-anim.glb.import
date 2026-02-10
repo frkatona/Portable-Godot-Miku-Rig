@@ -1,15 +1,15 @@
 [remap]
 
-importer="animation_library"
+importer="scene"
 importer_version=1
-type="AnimationLibrary"
-uid="uid://skr35q7h5ael"
-path="res://.godot/imported/yellow2.glb-48a2419b331ddb9d66ac755871bc8b74.res"
+type="PackedScene"
+uid="uid://bp6decd5v2gri"
+path="res://.godot/imported/pink_no-anim.glb-f05f84a597ae6127cb966ced1289eb54.scn"
 
 [deps]
 
-source_file="res://Assets/Animations/yellow2.glb"
-dest_files=["res://.godot/imported/yellow2.glb-48a2419b331ddb9d66ac755871bc8b74.res"]
+source_file="res://Assets/Models/pink_no-anim.glb"
+dest_files=["res://.godot/imported/pink_no-anim.glb-f05f84a597ae6127cb966ced1289eb54.scn"]
 
 [params]
 

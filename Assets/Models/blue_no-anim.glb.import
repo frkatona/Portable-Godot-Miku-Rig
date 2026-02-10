@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bvjtx5qjjlik3"
-path="res://.godot/imported/blue_defonly.glb-4d87b1f69816f8fac5e97c890e1126a8.scn"
+uid="uid://jxiq0ftjy16l"
+path="res://.godot/imported/blue_no-anim.glb-bca7e8f02ad3437d6acfe5d560df9fe5.scn"
 
 [deps]
 
-source_file="res://Assets/Models/blue_defonly.glb"
-dest_files=["res://.godot/imported/blue_defonly.glb-4d87b1f69816f8fac5e97c890e1126a8.scn"]
+source_file="res://Assets/Models/blue_no-anim.glb"
+dest_files=["res://.godot/imported/blue_no-anim.glb-bca7e8f02ad3437d6acfe5d560df9fe5.scn"]
 
 [params]
 

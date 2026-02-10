@@ -17,6 +17,12 @@
 
 ![blender screenshot](Exports/blender_screenshot_1.png)
 
+# Current Troubleshooting
+
+From Godot's retargeting documentation ([link](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/retargeting_3d_skeletons.html)):
+>Godot has Position/Rotation/Scale 3D tracks (which this document calls "Transform" tracks) with Nodepaths to bones for Skeleton bone animation. This means you can't share animations between multiple Skeletons just by using the same bone names.
+
+
 ## Process
 
 1. export glb of animated model with the universal rig (using 'deform bones only' lately)
@@ -42,7 +48,7 @@ I also played around with alternative strategies of extracting animations from t
 - even when an animation library is working correctly, it seems to return the warning:
     - `AnimationMixer (at: Miku_Yellow_AnimationLibrary.tscn): 'miku_animations/run_003', couldn't resolve track:  'Skeleton3D:DEF-f_pinky.01.R'. This warning can be disabled in Project Settings.`
     - are they all about the left pinky phalanges or is that just the message header?
-    - it's the header — there are like 14k warnings messages
+    - it's the header — there are like 14k warning messages
 - other than the warnings, there are 25 identical error messages:
     - `ERROR: scene/animation/animation_mixer.cpp:286 - Condition "p_animation_library.is_null()" is true. Returning: StringName()`
 
@@ -51,3 +57,5 @@ bug fixing to-do
 - [ ] making skeleton names identical in Blender (can I even do this?  I guess I could rename the original and just swap that name around...and I would only need to do it once each time I export a new mesh)
 - [ ] how can I check the animations are imported correctly separate from their model?  the armature doesn't seem to move in the import settings
 
+also see
+- Godot Docs - asset export conventions ([link](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/model_export_considerations.html#d-asset-direction-conventions))

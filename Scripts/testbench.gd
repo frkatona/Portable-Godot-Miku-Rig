@@ -1,8 +1,8 @@
 extends Node3D
 
-@onready var char_yellow : Node3D = $Miku_yellow
-@onready var char_blue : Node3D = $Miku_blue
-@onready var char_pink : Node3D = $Miku_pink
+@onready var char_yellow : Node3D = $yellow
+@onready var char_blue : Node3D = $blue
+@onready var char_pink : Node3D = $	pink
 
 @onready var velocity_scalar : float = 3e-2
 @onready var circles_frequency_scalar : float = 1e-5

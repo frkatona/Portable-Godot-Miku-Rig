@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://cqrx354qeuvxm"]
 
 [ext_resource type="Script" uid="uid://bj4p772njen0p" path="res://Scripts/testbench.gd" id="1_8ffim"]
-[ext_resource type="PackedScene" uid="uid://b2bry160viyku" path="res://Scenes/Miku_Yellow.tscn" id="2_8ffim"]
-[ext_resource type="PackedScene" uid="uid://f7jbod7263my" path="res://Scenes/Miku_Blue.tscn" id="3_7p6j4"]
-[ext_resource type="PackedScene" uid="uid://cb1bfi8chb73b" path="res://Scenes/Miku_Pink.tscn" id="4_6444e"]
+[ext_resource type="PackedScene" uid="uid://bwrcdk8soojg0" path="res://Scenes/Miku-Blue.tscn" id="2_7p6j4"]
+[ext_resource type="PackedScene" uid="uid://c43r6kxi3xsk4" path="res://Scenes/Miku-Pink.tscn" id="3_6444e"]
+[ext_resource type="PackedScene" uid="uid://cvxeq11x10tbb" path="res://Scenes/Miku-Yellow.tscn" id="4_evi0p"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_8ffim"]
 
@@ -30,17 +30,17 @@ environment = SubResource("Environment_3hls8")
 camera_attributes = SubResource("CameraAttributesPractical_hbghi")
 compositor = SubResource("Compositor_hn12h")
 
-[node name="Miku_yellow" parent="." unique_id=1616399533 instance=ExtResource("2_8ffim")]
-
 [node name="Camera3D" type="Camera3D" parent="." unique_id=1214282355]
 transform = Transform3D(-1, 3.1373684e-08, -8.159924e-08, -2.276224e-08, 0.8077533, 0.58952063, 8.440749e-08, 0.58952063, -0.8077533, 0, 2.4950678, -3.6133819)
 
 [node name="CSGMesh3D" type="CSGMesh3D" parent="." unique_id=440154688]
-transform = Transform3D(15.851597, 0, 0, 0, 1, 0, 0, 0, 15.851597, 0, -0.49216497, 0)
+transform = Transform3D(15.851597, 0, 0, 0, 1, 0, 0, 0, 15.851597, 0.010093689, -0.49216485, 0.00010585785)
 mesh = SubResource("BoxMesh_8ffim")
 
-[node name="Miku_blue" parent="." unique_id=252143364 instance=ExtResource("3_7p6j4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.192377, 0, 0.24655056)
+[node name="blue" parent="." unique_id=1863950706 instance=ExtResource("2_7p6j4")]
 
-[node name="Miku_pink" parent="." unique_id=650470126 instance=ExtResource("4_6444e")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5466528, 0, 0.21757793)
+[node name="pink" parent="." unique_id=1483689096 instance=ExtResource("3_6444e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
+
+[node name="yellow" parent="." unique_id=1964633978 instance=ExtResource("4_evi0p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
