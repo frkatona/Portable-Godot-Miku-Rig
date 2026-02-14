@@ -52,11 +52,15 @@
 
 ![godot node structure](Exports/godot_node-structure.png)
 
-Currently only includes the static A-posed 'basis' animation and a 'run' animation
+### Dev log
+ - 2026-02-14
+   - added several new animations
+   - uploaded slightly better bear mesh with linked animations
 
 I also played around with alternative strategies of extracting animations from the animated model imports and re-targetting, but this seems maybe sliiiightly more reliable
 
 ### To-do
- - [ ] try applying the animations to a differently-proportioned teddybear model
- - [ ] use separate armature for stopgap teddybear enemy animaitons
+ - [x] try applying the animations to a differently-proportioned teddybear model
+   - (remade armature but kept naming scheme the same and removed the weights associated with fingers)
+   - still need to figure out why the extra ear bone strategy isn't working...what did I do differently for the hair bones of the Mikus?
  - [ ] fix mesh deformation inconsistencies (pupils, mouths, eyebrows, over-all straps, pants, fingers) 
