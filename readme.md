@@ -52,12 +52,15 @@
 
 ![godot node structure](Exports/godot_node-structure.png)
 
+I also played around with alternative strategies of extracting animations from the animated model imports and re-targetting, but this seems maybe sliiiightly more reliable
+
 ### Dev log
- - 2026-02-14
+ - **2026-02-14**
    - added several new animations
    - uploaded slightly better bear mesh with linked animations
-
-I also played around with alternative strategies of extracting animations from the animated model imports and re-targetting, but this seems maybe sliiiightly more reliable
+   - notes:
+     - it seems like Godot shared animations are forgiving for different armatures so long as the animation never addresses a bone that doesn't exist in the armature
+     - tried to remove 'skinning' to get rid of the unecessary skeleton in the animations export, but it seemed to break.  I didn't spend much time trying to fix it, but it's at least not as easy as unchecking the skinning box in Blender's exporter
 
 ### To-do
  - [x] try applying the animations to a differently-proportioned teddybear model
