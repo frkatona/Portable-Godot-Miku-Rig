@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://bwrcdk8soojg0" path="res://Scenes/Miku-Blue.tscn" id="2_7p6j4"]
 [ext_resource type="PackedScene" uid="uid://c43r6kxi3xsk4" path="res://Scenes/Miku-Pink.tscn" id="3_6444e"]
 [ext_resource type="PackedScene" uid="uid://cvxeq11x10tbb" path="res://Scenes/Miku-Yellow.tscn" id="4_evi0p"]
+[ext_resource type="PackedScene" uid="uid://cas2yuirtm6ng" path="res://Scenes/Bear.tscn" id="5_6444e"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_8ffim"]
 
@@ -44,3 +45,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
 
 [node name="yellow" parent="." unique_id=1964633978 instance=ExtResource("4_evi0p")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -0.63829637, 0)
+
+[node name="Node3D" parent="." unique_id=1991046324 instance=ExtResource("5_6444e")]
+transform = Transform3D(0.82763934, 0, -0.5612603, 0, 1, 0, 0.5612603, 0, 0.82763934, -1.2397844, 0, -1.1443396)
