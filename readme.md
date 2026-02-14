@@ -56,4 +56,7 @@ Currently only includes the static A-posed 'basis' animation and a 'run' animati
 
 I also played around with alternative strategies of extracting animations from the animated model imports and re-targetting, but this seems maybe sliiiightly more reliable
 
-Currently trying with insufficient success to apply the animations to a differently-proportioned teddybear model
+### To-do
+ - [ ] try applying the animations to a differently-proportioned teddybear model
+ - [ ] use separate armature for stopgap teddybear enemy animaitons
+ - [ ] fix mesh deformation inconsistencies (pupils, mouths, eyebrows, over-all straps, pants, fingers) 
